@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9429D9811C35928E0004B031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9429D9801C35928E0004B031 /* main.m */; };
+		9429D9841C35928E0004B031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9429D9831C35928E0004B031 /* AppDelegate.m */; };
+		9429D9871C35928E0004B031 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9429D9861C35928E0004B031 /* FirstViewController.m */; };
+		9429D98A1C35928E0004B031 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9429D9891C35928E0004B031 /* SecondViewController.m */; };
+		9429D98D1C35928E0004B031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9429D98B1C35928E0004B031 /* Main.storyboard */; };
+		9429D98F1C35928E0004B031 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9429D98E1C35928E0004B031 /* Images.xcassets */; };
+		9429D9921C35928E0004B031 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9429D9901C35928E0004B031 /* LaunchScreen.xib */; };
+		9429D99E1C35928E0004B031 /* TresVistasStoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9429D99D1C35928E0004B031 /* TresVistasStoryBoardTests.m */; };
+		9429D9B11C3597A20004B031 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9429D9B01C3597A20004B031 /* ThirdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9429D9981C35928E0004B031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9429D9731C35928E0004B031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9429D97A1C35928E0004B031;
+			remoteInfo = TresVistasStoryBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9429D97B1C35928E0004B031 /* TresVistasStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TresVistasStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9429D97F1C35928E0004B031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9429D9801C35928E0004B031 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9429D9821C35928E0004B031 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9429D9831C35928E0004B031 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9429D9851C35928E0004B031 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		9429D9861C35928E0004B031 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		9429D9881C35928E0004B031 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9429D9891C35928E0004B031 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9429D98C1C35928E0004B031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9429D98E1C35928E0004B031 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9429D9911C35928E0004B031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9429D9971C35928E0004B031 /* TresVistasStoryBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TresVistasStoryBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9429D99C1C35928E0004B031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9429D99D1C35928E0004B031 /* TresVistasStoryBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TresVistasStoryBoardTests.m; sourceTree = "<group>"; };
+		9429D9AF1C3597A20004B031 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		9429D9B01C3597A20004B031 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9429D9781C35928E0004B031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9429D9941C35928E0004B031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9429D9721C35928E0004B031 = {
+			isa = PBXGroup;
+			children = (
+				9429D97D1C35928E0004B031 /* TresVistasStoryBoard */,
+				9429D99A1C35928E0004B031 /* TresVistasStoryBoardTests */,
+				9429D97C1C35928E0004B031 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9429D97C1C35928E0004B031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9429D97B1C35928E0004B031 /* TresVistasStoryBoard.app */,
+				9429D9971C35928E0004B031 /* TresVistasStoryBoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9429D97D1C35928E0004B031 /* TresVistasStoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				9429D9AC1C3597780004B031 /* AppDelegate */,
+				9429D9AD1C3597810004B031 /* FirstView */,
+				9429D9AE1C35978F0004B031 /* SecondView */,
+				9429D9B21C3597A50004B031 /* ThirdView */,
+				9429D98B1C35928E0004B031 /* Main.storyboard */,
+				9429D98E1C35928E0004B031 /* Images.xcassets */,
+				9429D9901C35928E0004B031 /* LaunchScreen.xib */,
+				9429D97E1C35928E0004B031 /* Supporting Files */,
+			);
+			path = TresVistasStoryBoard;
+			sourceTree = "<group>";
+		};
+		9429D97E1C35928E0004B031 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9429D97F1C35928E0004B031 /* Info.plist */,
+				9429D9801C35928E0004B031 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9429D99A1C35928E0004B031 /* TresVistasStoryBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				9429D99D1C35928E0004B031 /* TresVistasStoryBoardTests.m */,
+				9429D99B1C35928E0004B031 /* Supporting Files */,
+			);
+			path = TresVistasStoryBoardTests;
+			sourceTree = "<group>";
+		};
+		9429D99B1C35928E0004B031 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9429D99C1C35928E0004B031 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9429D9AC1C3597780004B031 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9429D9821C35928E0004B031 /* AppDelegate.h */,
+				9429D9831C35928E0004B031 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9429D9AD1C3597810004B031 /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				9429D9851C35928E0004B031 /* FirstViewController.h */,
+				9429D9861C35928E0004B031 /* FirstViewController.m */,
+			);
+			name = FirstView;
+			sourceTree = "<group>";
+		};
+		9429D9AE1C35978F0004B031 /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				9429D9881C35928E0004B031 /* SecondViewController.h */,
+				9429D9891C35928E0004B031 /* SecondViewController.m */,
+			);
+			name = SecondView;
+			sourceTree = "<group>";
+		};
+		9429D9B21C3597A50004B031 /* ThirdView */ = {
+			isa = PBXGroup;
+			children = (
+				9429D9AF1C3597A20004B031 /* ThirdViewController.h */,
+				9429D9B01C3597A20004B031 /* ThirdViewController.m */,
+			);
+			name = ThirdView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9429D97A1C35928E0004B031 /* TresVistasStoryBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9429D9A11C35928E0004B031 /* Build configuration list for PBXNativeTarget "TresVistasStoryBoard" */;
+			buildPhases = (
+				9429D9771C35928E0004B031 /* Sources */,
+				9429D9781C35928E0004B031 /* Frameworks */,
+				9429D9791C35928E0004B031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TresVistasStoryBoard;
+			productName = TresVistasStoryBoard;
+			productReference = 9429D97B1C35928E0004B031 /* TresVistasStoryBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9429D9961C35928E0004B031 /* TresVistasStoryBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9429D9A41C35928E0004B031 /* Build configuration list for PBXNativeTarget "TresVistasStoryBoardTests" */;
+			buildPhases = (
+				9429D9931C35928E0004B031 /* Sources */,
+				9429D9941C35928E0004B031 /* Frameworks */,
+				9429D9951C35928E0004B031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9429D9991C35928E0004B031 /* PBXTargetDependency */,
+			);
+			name = TresVistasStoryBoardTests;
+			productName = TresVistasStoryBoardTests;
+			productReference = 9429D9971C35928E0004B031 /* TresVistasStoryBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9429D9731C35928E0004B031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Héctor Gonzalo Andrés";
+				TargetAttributes = {
+					9429D97A1C35928E0004B031 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9429D9961C35928E0004B031 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 9429D97A1C35928E0004B031;
+					};
+				};
+			};
+			buildConfigurationList = 9429D9761C35928E0004B031 /* Build configuration list for PBXProject "TresVistasStoryBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9429D9721C35928E0004B031;
+			productRefGroup = 9429D97C1C35928E0004B031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9429D97A1C35928E0004B031 /* TresVistasStoryBoard */,
+				9429D9961C35928E0004B031 /* TresVistasStoryBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9429D9791C35928E0004B031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9429D98D1C35928E0004B031 /* Main.storyboard in Resources */,
+				9429D9921C35928E0004B031 /* LaunchScreen.xib in Resources */,
+				9429D98F1C35928E0004B031 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9429D9951C35928E0004B031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9429D9771C35928E0004B031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9429D98A1C35928E0004B031 /* SecondViewController.m in Sources */,
+				9429D9B11C3597A20004B031 /* ThirdViewController.m in Sources */,
+				9429D9841C35928E0004B031 /* AppDelegate.m in Sources */,
+				9429D9871C35928E0004B031 /* FirstViewController.m in Sources */,
+				9429D9811C35928E0004B031 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9429D9931C35928E0004B031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9429D99E1C35928E0004B031 /* TresVistasStoryBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9429D9991C35928E0004B031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9429D97A1C35928E0004B031 /* TresVistasStoryBoard */;
+			targetProxy = 9429D9981C35928E0004B031 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9429D98B1C35928E0004B031 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9429D98C1C35928E0004B031 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9429D9901C35928E0004B031 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9429D9911C35928E0004B031 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9429D99F1C35928E0004B031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9429D9A01C35928E0004B031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9429D9A21C35928E0004B031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TresVistasStoryBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9429D9A31C35928E0004B031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TresVistasStoryBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9429D9A51C35928E0004B031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TresVistasStoryBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TresVistasStoryBoard.app/TresVistasStoryBoard";
+			};
+			name = Debug;
+		};
+		9429D9A61C35928E0004B031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TresVistasStoryBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TresVistasStoryBoard.app/TresVistasStoryBoard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9429D9761C35928E0004B031 /* Build configuration list for PBXProject "TresVistasStoryBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9429D99F1C35928E0004B031 /* Debug */,
+				9429D9A01C35928E0004B031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9429D9A11C35928E0004B031 /* Build configuration list for PBXNativeTarget "TresVistasStoryBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9429D9A21C35928E0004B031 /* Debug */,
+				9429D9A31C35928E0004B031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9429D9A41C35928E0004B031 /* Build configuration list for PBXNativeTarget "TresVistasStoryBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9429D9A51C35928E0004B031 /* Debug */,
+				9429D9A61C35928E0004B031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9429D9731C35928E0004B031 /* Project object */;
+}

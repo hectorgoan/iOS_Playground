@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9400A7AA1C37D5C600FA01C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400A7A91C37D5C600FA01C0 /* main.m */; };
+		9400A7AD1C37D5C600FA01C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400A7AC1C37D5C600FA01C0 /* AppDelegate.m */; };
+		9400A7B01C37D5C600FA01C0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400A7AF1C37D5C600FA01C0 /* FirstViewController.m */; };
+		9400A7B31C37D5C600FA01C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9400A7B11C37D5C600FA01C0 /* Main.storyboard */; };
+		9400A7B51C37D5C600FA01C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9400A7B41C37D5C600FA01C0 /* Images.xcassets */; };
+		9400A7B81C37D5C600FA01C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9400A7B61C37D5C600FA01C0 /* LaunchScreen.xib */; };
+		9400A7C41C37D5C700FA01C0 /* Vaive_nTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400A7C31C37D5C700FA01C0 /* Vaive_nTests.m */; };
+		9400A7D11C37D95D00FA01C0 /* spring1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9400A7CF1C37D95D00FA01C0 /* spring1.png */; };
+		9400A7D21C37D95D00FA01C0 /* spring2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9400A7D01C37D95D00FA01C0 /* spring2.png */; };
+		9400A7D61C37DC8D00FA01C0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400A7D51C37DC8D00FA01C0 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9400A7BE1C37D5C700FA01C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9400A79C1C37D5C600FA01C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9400A7A31C37D5C600FA01C0;
+			remoteInfo = "Vaivén";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9400A7A41C37D5C600FA01C0 /* Vaivén.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vaivén.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9400A7A81C37D5C600FA01C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9400A7A91C37D5C600FA01C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9400A7AB1C37D5C600FA01C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9400A7AC1C37D5C600FA01C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9400A7AE1C37D5C600FA01C0 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		9400A7AF1C37D5C600FA01C0 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		9400A7B21C37D5C600FA01C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9400A7B41C37D5C600FA01C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9400A7B71C37D5C600FA01C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9400A7BD1C37D5C700FA01C0 /* VaivénTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VaivénTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9400A7C21C37D5C700FA01C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9400A7C31C37D5C700FA01C0 /* Vaive_nTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vaive_nTests.m; sourceTree = "<group>"; };
+		9400A7CF1C37D95D00FA01C0 /* spring1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spring1.png; sourceTree = "<group>"; };
+		9400A7D01C37D95D00FA01C0 /* spring2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spring2.png; sourceTree = "<group>"; };
+		9400A7D41C37DC8D00FA01C0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9400A7D51C37DC8D00FA01C0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9400A7A11C37D5C600FA01C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9400A7BA1C37D5C700FA01C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9400A79B1C37D5C600FA01C0 = {
+			isa = PBXGroup;
+			children = (
+				9400A7A61C37D5C600FA01C0 /* Vaivén */,
+				9400A7C01C37D5C700FA01C0 /* VaivénTests */,
+				9400A7A51C37D5C600FA01C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9400A7A51C37D5C600FA01C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9400A7A41C37D5C600FA01C0 /* Vaivén.app */,
+				9400A7BD1C37D5C700FA01C0 /* VaivénTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9400A7A61C37D5C600FA01C0 /* Vaivén */ = {
+			isa = PBXGroup;
+			children = (
+				9400A7D31C37D96200FA01C0 /* imgResources */,
+				9400A7CD1C37D69300FA01C0 /* AppDelegate */,
+				9400A7CE1C37D69B00FA01C0 /* FirstView Controller */,
+				9400A7D71C37DC8F00FA01C0 /* SecondView Controller */,
+				9400A7B11C37D5C600FA01C0 /* Main.storyboard */,
+				9400A7B41C37D5C600FA01C0 /* Images.xcassets */,
+				9400A7B61C37D5C600FA01C0 /* LaunchScreen.xib */,
+				9400A7A71C37D5C600FA01C0 /* Supporting Files */,
+			);
+			path = "Vaivén";
+			sourceTree = "<group>";
+		};
+		9400A7A71C37D5C600FA01C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9400A7A81C37D5C600FA01C0 /* Info.plist */,
+				9400A7A91C37D5C600FA01C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9400A7C01C37D5C700FA01C0 /* VaivénTests */ = {
+			isa = PBXGroup;
+			children = (
+				9400A7C31C37D5C700FA01C0 /* Vaive_nTests.m */,
+				9400A7C11C37D5C700FA01C0 /* Supporting Files */,
+			);
+			path = "VaivénTests";
+			sourceTree = "<group>";
+		};
+		9400A7C11C37D5C700FA01C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9400A7C21C37D5C700FA01C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9400A7CD1C37D69300FA01C0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9400A7AB1C37D5C600FA01C0 /* AppDelegate.h */,
+				9400A7AC1C37D5C600FA01C0 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9400A7CE1C37D69B00FA01C0 /* FirstView Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9400A7AE1C37D5C600FA01C0 /* FirstViewController.h */,
+				9400A7AF1C37D5C600FA01C0 /* FirstViewController.m */,
+			);
+			name = "FirstView Controller";
+			sourceTree = "<group>";
+		};
+		9400A7D31C37D96200FA01C0 /* imgResources */ = {
+			isa = PBXGroup;
+			children = (
+				9400A7CF1C37D95D00FA01C0 /* spring1.png */,
+				9400A7D01C37D95D00FA01C0 /* spring2.png */,
+			);
+			name = imgResources;
+			sourceTree = "<group>";
+		};
+		9400A7D71C37DC8F00FA01C0 /* SecondView Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9400A7D41C37DC8D00FA01C0 /* SecondViewController.h */,
+				9400A7D51C37DC8D00FA01C0 /* SecondViewController.m */,
+			);
+			name = "SecondView Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9400A7A31C37D5C600FA01C0 /* Vaivén */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9400A7C71C37D5C700FA01C0 /* Build configuration list for PBXNativeTarget "Vaivén" */;
+			buildPhases = (
+				9400A7A01C37D5C600FA01C0 /* Sources */,
+				9400A7A11C37D5C600FA01C0 /* Frameworks */,
+				9400A7A21C37D5C600FA01C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vaivén";
+			productName = "Vaivén";
+			productReference = 9400A7A41C37D5C600FA01C0 /* Vaivén.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9400A7BC1C37D5C700FA01C0 /* VaivénTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9400A7CA1C37D5C700FA01C0 /* Build configuration list for PBXNativeTarget "VaivénTests" */;
+			buildPhases = (
+				9400A7B91C37D5C700FA01C0 /* Sources */,
+				9400A7BA1C37D5C700FA01C0 /* Frameworks */,
+				9400A7BB1C37D5C700FA01C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9400A7BF1C37D5C700FA01C0 /* PBXTargetDependency */,
+			);
+			name = "VaivénTests";
+			productName = "VaivénTests";
+			productReference = 9400A7BD1C37D5C700FA01C0 /* VaivénTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9400A79C1C37D5C600FA01C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Héctor Gonzalo Andrés";
+				TargetAttributes = {
+					9400A7A31C37D5C600FA01C0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9400A7BC1C37D5C700FA01C0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 9400A7A31C37D5C600FA01C0;
+					};
+				};
+			};
+			buildConfigurationList = 9400A79F1C37D5C600FA01C0 /* Build configuration list for PBXProject "Vaivén" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9400A79B1C37D5C600FA01C0;
+			productRefGroup = 9400A7A51C37D5C600FA01C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9400A7A31C37D5C600FA01C0 /* Vaivén */,
+				9400A7BC1C37D5C700FA01C0 /* VaivénTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9400A7A21C37D5C600FA01C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9400A7B31C37D5C600FA01C0 /* Main.storyboard in Resources */,
+				9400A7D21C37D95D00FA01C0 /* spring2.png in Resources */,
+				9400A7B81C37D5C600FA01C0 /* LaunchScreen.xib in Resources */,
+				9400A7D11C37D95D00FA01C0 /* spring1.png in Resources */,
+				9400A7B51C37D5C600FA01C0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9400A7BB1C37D5C700FA01C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9400A7A01C37D5C600FA01C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9400A7D61C37DC8D00FA01C0 /* SecondViewController.m in Sources */,
+				9400A7B01C37D5C600FA01C0 /* FirstViewController.m in Sources */,
+				9400A7AD1C37D5C600FA01C0 /* AppDelegate.m in Sources */,
+				9400A7AA1C37D5C600FA01C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9400A7B91C37D5C700FA01C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9400A7C41C37D5C700FA01C0 /* Vaive_nTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9400A7BF1C37D5C700FA01C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9400A7A31C37D5C600FA01C0 /* Vaivén */;
+			targetProxy = 9400A7BE1C37D5C700FA01C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9400A7B11C37D5C600FA01C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9400A7B21C37D5C600FA01C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9400A7B61C37D5C600FA01C0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9400A7B71C37D5C600FA01C0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9400A7C51C37D5C700FA01C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9400A7C61C37D5C700FA01C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9400A7C81C37D5C700FA01C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vaivén/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9400A7C91C37D5C700FA01C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vaivén/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9400A7CB1C37D5C700FA01C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VaivénTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaivén.app/Vaivén";
+			};
+			name = Debug;
+		};
+		9400A7CC1C37D5C700FA01C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VaivénTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaivén.app/Vaivén";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9400A79F1C37D5C600FA01C0 /* Build configuration list for PBXProject "Vaivén" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9400A7C51C37D5C700FA01C0 /* Debug */,
+				9400A7C61C37D5C700FA01C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9400A7C71C37D5C700FA01C0 /* Build configuration list for PBXNativeTarget "Vaivén" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9400A7C81C37D5C700FA01C0 /* Debug */,
+				9400A7C91C37D5C700FA01C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9400A7CA1C37D5C700FA01C0 /* Build configuration list for PBXNativeTarget "VaivénTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9400A7CB1C37D5C700FA01C0 /* Debug */,
+				9400A7CC1C37D5C700FA01C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9400A79C1C37D5C600FA01C0 /* Project object */;
+}
