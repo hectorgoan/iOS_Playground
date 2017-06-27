@@ -1,15 +1,13 @@
 # 	iOS Playground
 
-## 	Actually:
+### 	This is actually an iOS + macOS playground
 
-### 	This is an iOS + macOS playground
-
-## 	ObjC iOS Apps
+### 	ObjC iOS Apps
 Contains iOS tests and small apps.
 
-## 	Objc macOS Apps
+### 	Objc macOS Apps
 Contains macOS tests and small apps. Some of them terminal-based.
 
-## 	Swift Playgrounds
+###	Swift Playgrounds
 Swift notes
 
